@@ -61,3 +61,11 @@ st.dataframe(df)
 # Chart
 st.subheader("Hours Worked Distribution")
 st.line_chart(df[['Employee', 'Hours Worked']].set_index('Employee'))
+
+
+import matplotlib.pyplot as plt
+#import streamlit as st
+
+fig, ax = plt.subplots()
+ax.plot([1, 2, 3], [1, 5, 3])
+st.pyplot(fig)
