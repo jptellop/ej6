@@ -1,7 +1,7 @@
 #import streamlit as st
 import pandas as pd
 import numpy as np
-!pip install streamlit
+#!pip install streamlit
 import streamlit as st
 # Sample Data
 data = {
